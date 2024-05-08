@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: start;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.information p {
+    margin: 5px 0;
+}
