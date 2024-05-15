@@ -1,20 +1,94 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>刘艺果的页面</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liu Yiguo</title>
+<link rel="stylesheet" href="style.css">
+<div class="translucent-purple-box"></div>
+
+
+
+
+
+
+
+
+
+<style>
+  .container {
+    width: 100%; /* 或者一个固定的宽度，例如 960px */
+    height: 1300px;/* 设置一个高度，确保容器内可以滚动 */
+    background-image: url('https://cdn.jsdelivr.net/gh/Cashewwwww/00/img/bj0.jpg'); /* 替换为你的图片路径 */
+    background-size: 100% auto; /* 宽度与容器宽度相同，高度自动缩放 */
+    background-position: top center; /* 背景图片从顶部开始显示 */
+    background-repeat: no-repeat; /* 不重复背景图片 */
+    overflow: auto; /* 开启滚动条 */
+  }
+</style>
+</head>
+
+
+
+
 </head>
 <body>
-    <div class="profile-container">
-        <img src="img/emoji.jpg" alt="emoji.jpg"/>
-        <div class="information">
-            <p>姓名：刘艺果</p>
-            <p>年龄：21岁</p>
-            <p>就读学校：浙江万里学院</p>
-            <p>爱好：手工</p>
-            <p>Email：1159491058@qq.com</p>
-            <p>MBTI：ISFP</p>
-        </div>
+    <div class="container">
+ 
+
+<div class="container1">
+    <img src="https://cdn.jsdelivr.net/gh/Cashewwwww/00/img/ren5.jpg" alt="logo" class="logo"> <!-- 左上方的图片 -->
+    
+    <!-- <div class="bordered-text">
+Liu Yiguo -->
+
+<div class="information2">
+  <p>Liu</p>
+
+  
+</div>
+
+<div class="information3">
+  <p>Daisy</p>
+
+  
+</div>
+
+
     </div>
+    <div class="information">
+        <p>Name：Liu Yiguo/Daisy</p>
+        <p>Age：20</p>
+        <p>School：Zhejiang Wanli University</p>
+        <p>Email：1159491058@qq.com</p>
+        <p>MBTI：INFP</p>
+    </div>
+
+   
+</div>
+
+ <img src="https://cdn.jsdelivr.net/gh/Cashewwwww/00/img/900.jpg" alt="示例图片" class="logo6"> 
+<img src="https://cdn.jsdelivr.net/gh/Cashewwwww/00/img/ds3.jpg" alt="logo4" class="logo4">
+
+<img src="https://cdn.jsdelivr.net/gh/Cashewwwww/00/img/ds4.jpg" alt="示例图片" class="logo5">
+ 
+
+</div>
+
+
+<script>
+  // 使用JavaScript来动态改变背景图片的垂直位置
+  document.querySelector('.container').addEventListener('scroll', function() {
+    var scrollPercentage = 100 * this.scrollTop / (this.scrollHeight - this.clientHeight);
+    this.style.backgroundPosition = 'center ' + scrollPercentage + '%';
+  });
+</script>
+
+
+
+
+
+
 </body>
 </html>

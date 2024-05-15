@@ -1,19 +1,165 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
 
-.profile-container {
+
+  .container1 {
     display: flex;
-    justify-content: start;
-}
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+  } 
+  
+  .logo {
+    position: absolute; /* 使用绝对定位 */
+    top: 754px; /* 距离页面顶部50px */
+    left: 146px; /* 距离页面左侧100px */
+    width: 352px; /* 图片宽度 */
+    height: auto; /* 图片高度，与宽度相同使其成为正圆形 */
+    border-radius: 10px;
+    /* border: 2px solid #4c4949;  */
+    
+  }
 
-img {
-    max-width: 200px;
-    height: auto;
-    margin-right: 20px;
-}
+  .logo3 {
+    position: absolute; /* 使用绝对定位 */
+    top: 1300px; /* 距离页面顶部50px */
+    left: 146px; /* 距离页面左侧100px */
+    width: 352px; /* 图片宽度 */
+    height: auto; /* 图片高度，与宽度相同使其成为正圆形 */
+    border-radius: 10px;
+    /* border: 2px solid #4c4949;  */
+    
+  }
 
-.information p {
-    margin: 5px 0;
-}
+  .information{
+    position: absolute; /* 使用绝对定位 */
+    top: 970px; /* 距离页面顶部50px */
+    left: 570px; /* 距离页面左侧100px */
+    font-size: 16px; 
+  }
+
+
+  .information2{
+    position: absolute; /* 使用绝对定位 */
+    top: 196px; /* 距离页面顶部50px */
+    left: 100px; /* 距离页面左侧100px */
+    font-size: 30px; 
+  }
+
+
+  .information3{
+    position: absolute; /* 使用绝对定位 */
+    top:590px; /* 距离页面顶部50px */
+    left: 1288px; /* 距离页面左侧100px */
+    font-size: 30px; 
+  }
+
+
+
+  .logo2 {
+    position: absolute; /* 使用绝对定位 */
+    top: 760px; /* 距离页面顶部50px */
+    left: 725px; /* 距离页面左侧100px */
+    width: 160px; /* 图片宽度 */
+    height: auto; /* 图片高度，与宽度相同使其成为正圆形 */
+    /* border: 2px solid #4c4949;  */
+
+  }
+
+  .logo4 {
+    position: absolute; /* 使用绝对定位 */
+    top: 756px; /* 距离页面顶部50px */
+    left: 974px; /* 距离页面左侧100px */
+    width: 352px; /* 图片宽度 */
+    height: auto; /* 图片高度，与宽度相同使其成为正圆形 */
+    border-radius: 10px;
+    /* border: 2px solid #4c4949;  */
+    
+  }
+
+  .logo5 {
+    position: absolute; /* 使用绝对定位 */
+    top: 977px; /* 距离页面顶部50px */
+    left: 974px; /* 距离页面左侧100px */
+    width: 352px; /* 图片宽度 */
+    height: auto; /* 图片高度，与宽度相同使其成为正圆形 */
+    border-radius: 10px;
+    /* border: 2px solid #4c4949;  */
+    
+  }
+
+  .logo6 {
+    position: absolute; /* 使用绝对定位 */
+    top: 750px; /* 距离页面顶部50px */
+    left:640px; /* 距离页面左侧100px */
+    width: 200px; /* 图片宽度 */
+    height: auto; /* 图片高度，与宽度相同使其成为正圆形 */
+
+    border-radius: 50%; /* 通过设置边框半径为50%来制作圆形效果 */
+    object-fit: cover; 
+     border: 4px solid #cfc9c9;
+    
+  }
+  
+  .content {
+    max-width: 400px;
+    margin-left: 20px; /* 或者你希望的间距 */
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .circular-image {
+    position: absolute; /* 使用绝对定位 */
+    top: 195px; /* 距离页面顶部50px */
+    left: 70px; /* 距离页面左侧100px */
+    width: 110px; /* 图片宽度 */
+    height: 110px; /* 图片高度，与宽度相同使其成为正圆形 */
+    border-radius: 50%; /* 通过设置边框半径为50%来制作圆形效果 */
+    object-fit: cover; /* 确保图片覆盖整个容器，不失真拉伸 */
+  }
+
+  .white-block {
+   
+    background-color: white; /* 背景颜色为白色 */
+    /* 以下是额外的样式，确保方块在页面上垂直水平居中 */
+    /* border: 2px solid #4c4949;  */
+    position: absolute; /* 使用绝对定位 */
+    top: 750px; /* 距离页面顶部50px */
+    left: 140px; /* 距离页面左侧100px */
+    width: 360px; /* 图片宽度 */
+    height: 50px; /* 图片高度，与宽度相同使其成为正圆形 */
+  
+
+  }
+
+  .bordered-text {
+    position: absolute; /* 使用绝对定位 */
+    top: 1250px; /* 距离页面顶部50px */
+    left: 140px; /* 距离页面左侧100px */
+    width: 320px; /* 图片宽度 */
+    height: 35px; /* 图片高度，与宽度相同使其成为正圆形 */
+    /* 文字居中 */
+    text-align: center;
+    font-size: 24px; 
+    /* 黑色边框 */
+    /* border: 2px solid black;  */
+    /* 其他样式 */
+    padding: 20px;
+
+
+  }
+  /* .translucent-purple-box {
+    background-color: rgba(211, 181, 240, 0.8); /* 浅紫色，80%透明度 */
+    /* aspect-ratio: 3 / 4; /* 比例为3:4 */
+    /* width: 300px; 或任何你想要的宽度
+  } */ 
